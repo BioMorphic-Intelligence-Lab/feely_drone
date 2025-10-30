@@ -1,0 +1,18 @@
+[submodule "feely_drone_common"]
+	path = feely_drone_common
+	url = git@github.com:BioMorphic-Intelligence-Lab/feely_drone_common.git
+[submodule "feely_drone_genesis"]
+	path = feely_drone_genesis
+	url = git@github.com:BioMorphic-Intelligence-Lab/feely_drone_genesis.git
+[submodule "feely_drone_plots"]
+	path = feely_drone_plots
+	url = git@github.com:BioMorphic-Intelligence-Lab/feely_drone_plots.git
+[submodule "feely_drone_ros2"]
+	path = feely_drone_ros2
+	url = git@github.com:BioMorphic-Intelligence-Lab/feely_drone_ros2.git
+[submodule "feely_drone_teensy"]
+	path = feely_drone_teensy
+	url = git@github.com:BioMorphic-Intelligence-Lab/feely_drone_teensy.git
+[submodule "feely_drone_sysID"]
+	path = feely_drone_sysID
+	url = git@github.com:BioMorphic-Intelligence-Lab/feely_drone_sysID.git
