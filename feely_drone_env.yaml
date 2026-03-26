@@ -1,0 +1,25 @@
+name: feely_drone
+
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python==3.12.8
+  - pytorch
+  - "numpy<2.0"
+  - tensorboard
+  - matplotlib
+  - stable-baselines3
+  - mesalib
+  - libglu
+  - libglvnd
+  - pip
+  - pip:
+    - "setuptools>=65.0,<82"   # >=82 removes pkg_resources; tensorboard needs it
+    - wheel
+    - libigl==2.5.1
+    - glfw==2.8.0
+    - genesis-world==0.2.1
+    - ./feely_drone_common
