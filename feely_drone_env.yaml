@@ -22,4 +22,5 @@ dependencies:
     - libigl==2.5.1
     - glfw==2.8.0
     - genesis-world==0.2.1
+    - trimesh
     - ./feely_drone_common
