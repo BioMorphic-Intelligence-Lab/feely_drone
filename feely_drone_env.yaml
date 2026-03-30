@@ -17,5 +17,6 @@ dependencies:
     - "setuptools>=65.0,<82"   # >=82 removes pkg_resources; tensorboard needs it
     - wheel
     - genesis-world==0.2.1
+    - libigl==2.5.1
     - trimesh
     - ./feely_drone_common
